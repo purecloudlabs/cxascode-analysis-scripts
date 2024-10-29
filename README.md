@@ -1,14 +1,14 @@
-#Introduction
+# Introduction
 As the support team for CX as Code we are sometimes pulled in to look at a customer's environment or one of our own internal environment and understand what is going on in their Terraform/CX as Code environment.
 
 As a result of these requests we have a written a number of python and and juypter notebook scripts to process ana analyze the data.  We are release these into our lab environment "AS-IS" with no guarantee of support.  Our goals to share these scripts so that the large CX as Code community can use them as they see fit.
 
-#Installation
+# Installation
 
 All requirements were captured in a Python `requirements.txt` file.  The libaries can be
 installed using `pip install -r requirements.txt"
 
-#Configuration
+# Configuration
 All paths used in these notebooks read from commonlib/config.Config class.  This class will read and write based on three environment variables:
 
 ```
@@ -17,7 +17,7 @@ export NORMALIZED_TERRAFORM_LOG_PATH="" #Output path fo the normalized Terraform
 export NORMALIZED_GENESYS_SDK_PATH=""   #Output path ot the normalized SDK data
 ```
 
-#Additional notes
+# Additional notes
 The `notebooks` directory contains two files: `plan-analysis.ipynb` and `sdk-notebook.ipynb` file.  
 
 The `plan-analysis.ipynb` file is a Juypter notebook that will take the STDOUT from the running of `terraform plan` or `tofu` plan and parse the results to identify long plan resolution times, drift detection, etc...
