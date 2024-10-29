@@ -6,7 +6,7 @@ As a result of these requests we have a written a number of python and and juypt
 # Installation
 
 All requirements were captured in a Python `requirements.txt` file.  The libaries can be
-installed using `pip install -r requirements.txt"
+installed using `pip install -r requirements.txt`.
 
 # Configuration
 All paths used in these notebooks read from commonlib/config.Config class.  This class will read and write based on three environment variables:
