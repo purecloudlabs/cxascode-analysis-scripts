@@ -71,7 +71,3 @@ The statistical analysis is printed to the console, showing:
 
 After running the script, you can use the generated JSON files for further analysis inside of jupyter notebook.  Please install
 pandas matplotlib and seaborn:
-
-## License
-
-[MIT License](LICENSE)
